@@ -40,9 +40,9 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: analytical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 21168682081
-  numberOfFiles: 17
-  numberOfSubjects: 17
+  numberOfBytes: 29050053109
+  numberOfFiles: 23
+  numberOfSubjects: 23
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10116
@@ -258,16 +258,22 @@ contributor:
 dateCreated: '2026-07-07T09:03:48.838542+00:00'
 description: "Chronic wireless EEG and EMG recordings from freely behaving Long-Evans
   rats carrying a heterozygous knockout of Grin2b (Grin2b+/-), the gene encoding the
-  GluN2B subunit of N-methyl-D-aspartate receptors (NMDARs). Grin2b+/- rats display
-  spike-and-wave discharges (SWDs, the electrographic correlate of absence seizures)
-  at higher incidence and duration than wild-type littermates, alongside reduced REM
-  sleep and altered NREM/wake distributions.\nRecordings were acquired over 72-96
-  h using the TaiNi wireless multichannel recording system (Tainitec, UK) with 14-channel
-  skull-surface EEG electrode grids and bilateral neck EMG electrodes, at 250.4 Hz.
-  Two consecutive 24-h baseline windows (BL1, BL2) were extracted per animal. Automated
-  pipelines classified sleep states (Wake, NREM, REM) in 5-s epochs and detected SWD
-  seizure events. Data contribute to the SFARI Autism Rat Models Consortium (ARC).
-  See Hristova et al., Epilepsia 2025 (doi:10.1111/epi.18606)."
+  GluN2B subunit of N-methyl-D-aspartate receptors (NMDARs), and their wild-type littermates.
+  Grin2b+/- rats display spike-and-wave discharges (SWDs, the electrographic correlate
+  of absence seizures) at higher incidence and duration than wild-type littermates,
+  alongside reduced REM sleep and altered NREM/wake distributions.  The Dandiset contains
+  23 of the 24 animals analysed in Hristova et al., Epilepsia 2025: 14 Grin2b+/- and
+  9 wild-type rats, one NWB file per animal.  Recordings lasted 72 to 100 h and were
+  acquired at 250.4 Hz with the TaiNi wireless recording system (Tainitec, UK), using
+  14 skull-surface EEG electrodes and bilateral neck EMG electrodes. Each file holds
+  the raw 16-channel recording and the lab's analysis of two consecutive 24-h baseline
+  windows (BL1, BL2): - sleep states (Wake, NREM, REM) scored automatically in 5-s
+  epochs from one EEG channel and one EMG channel, which are recorded per baseline
+  in the epochs table - SWD events and per-epoch SWD labels from the automated SWD
+  detector - hourly SWD counts by zeitgeber time - power spectra per sleep state \
+  \ Notes on this version:  - Animal 424 (Grin2b+/-), included in the published analysis,
+  will be added in a later version of this Dandiset. - Electrode location labels are
+  being reviewed and may be updated in a later version."
 ethicsApproval: []
 id: DANDI:001888/draft
 identifier: DANDI:001888
