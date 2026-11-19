@@ -57,7 +57,7 @@ citation: 'Hristova, Katerina; Fasol, Melissa C. M.; McLaughlin, Niamh; Nawaz, M
   Andrew; Bassi, Alejandro; Ocampo-Garces, Adrian; Escudero, Javier; Kind, Peter C.;
   Gonzalez-Sulser, Alfredo (2026) EEG recordings from a Grin2b+/- rat model of GRIN2B
   neurodevelopmental disorder: absence seizures and sleep-wake abnormalities (Version
-  draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001888/draft'
+  0.261119.1736) [Data set]. DANDI Archive. https://doi.org/10.48324/dandi.001888/0.261119.1736'
 contributor:
 - affiliation: []
   email: alessandramaria.trapani@polimi.it
@@ -256,6 +256,7 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2026-07-07T09:03:48.838542+00:00'
+datePublished: '2026-11-19T17:36:13.345559+00:00'
 description: "Chronic wireless EEG and EMG recordings from freely behaving Long-Evans
   rats carrying a heterozygous knockout of Grin2b (Grin2b+/-), the gene encoding the
   GluN2B subunit of N-methyl-D-aspartate receptors (NMDARs), and their wild-type littermates.
@@ -274,8 +275,9 @@ description: "Chronic wireless EEG and EMG recordings from freely behaving Long-
   \ Notes on this version:  - Animal 424 (Grin2b+/-), included in the published analysis,
   will be added in a later version of this Dandiset. - Electrode location labels are
   being reviewed and may be updated in a later version."
+doi: 10.48324/dandi.001888/0.261119.1736
 ethicsApproval: []
-id: DANDI:001888/draft
+id: DANDI:001888/0.261119.1736
 identifier: DANDI:001888
 keywords:
 - autism
@@ -286,9 +288,21 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/001888/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/001888/0.261119.1736/assets.yaml
 name: 'EEG recordings from a Grin2b+/- rat model of GRIN2B neurodevelopmental disorder:
   absence seizures and sleep-wake abnormalities'
+publishedBy:
+  endDate: '2026-11-19T17:36:13.345559+00:00'
+  id: urn:uuid:95209ede-6b7d-4139-a577-eed2e171b077
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2026-11-19T17:36:13.345559+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:563ba394-31a0-4e28-8a50-75a9b860e546
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource:
 - identifier: doi:10.1111/epi.18606
   name: Absence seizures and sleep-wake abnormalities in a rat model of GRIN2B neurodevelopmental
@@ -328,8 +342,8 @@ relatedResource:
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.7.0
-url: https://dandiarchive.org/dandiset/001888/draft
-version: draft
+url: https://dandiarchive.org/dandiset/001888/0.261119.1736
+version: 0.261119.1736
 wasGeneratedBy:
 - description: 'The Autism Rat Consortium (ARC) seeks to capitalize on the rat as
     an experimental system to advance our understanding of the behavioral and circuit
